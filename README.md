@@ -135,7 +135,7 @@ src/
 
 ---
 
-## 🌐 Rotas da Aplicação
+## Rotas da Aplicação
 
 | Rota               | Descrição                      | Acesso      |
 | ------------------ | ------------------------------ | ----------- |
@@ -154,9 +154,9 @@ src/
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
-### ✅ Pré-requisitos
+### Pré-requisitos
 
 - [Docker](https://www.docker.com/) e Docker Compose instalados
 - Porta `8080` disponível
@@ -187,7 +187,7 @@ src/
    docker-compose down
    ```
 
-### 🔧 Build Manual (sem Docker)
+### Build Manual (sem Docker)
 
 1. **Compile com Maven:**
 
@@ -224,7 +224,7 @@ O arquivo `init.sql` contém o schema completo e dados de seed (autores e livros
 
 - Credenciais definidas em `StartupListener.java`
 
-### 👨‍🎓 Aluno (dados de seed)
+### Aluno (dados de seed)
 
 - **Usuário:** CPF do aluno
 - **Senha:** `aluno123`
