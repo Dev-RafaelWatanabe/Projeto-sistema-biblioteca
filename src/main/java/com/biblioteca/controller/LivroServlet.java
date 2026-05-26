@@ -93,6 +93,7 @@ public class LivroServlet extends HttpServlet {
             } else {
                 livro.setStatus("Disponível");
                 dao.inserir(livro);
+                System.out.println("[LOG] Livro cadastrado com sucesso: " + livro.getTitulo());
                 request.getSession().setAttribute("mensagem", "Livro cadastrado com sucesso!");
             }
             request.getSession().setAttribute("tipoMensagem", "success");
